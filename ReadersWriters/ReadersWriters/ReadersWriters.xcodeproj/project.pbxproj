@@ -10,6 +10,8 @@
 		FAB01144264822B900A0026C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB01143264822B900A0026C /* AppDelegate.swift */; };
 		FAB01146264822BA00A0026C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB01145264822BA00A0026C /* Assets.xcassets */; };
 		FAB01149264822BA00A0026C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB01147264822BA00A0026C /* MainMenu.xib */; };
+		FAB01152264824EC00A0026C /* OperationPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB01151264824EC00A0026C /* OperationPerformer.swift */; };
+		FAB01154264824F200A0026C /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB01153264824F200A0026C /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		FAB01148264822BA00A0026C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		FAB0114A264822BA00A0026C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB0114B264822BA00A0026C /* ReadersWriters.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReadersWriters.entitlements; sourceTree = "<group>"; };
+		FAB01151264824EC00A0026C /* OperationPerformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationPerformer.swift; sourceTree = "<group>"; };
+		FAB01153264824F200A0026C /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				FAB01143264822B900A0026C /* AppDelegate.swift */,
+				FAB01153264824F200A0026C /* Storage.swift */,
+				FAB01151264824EC00A0026C /* OperationPerformer.swift */,
 				FAB01145264822BA00A0026C /* Assets.xcassets */,
 				FAB01147264822BA00A0026C /* MainMenu.xib */,
 				FAB0114A264822BA00A0026C /* Info.plist */,
@@ -130,7 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB01152264824EC00A0026C /* OperationPerformer.swift in Sources */,
 				FAB01144264822B900A0026C /* AppDelegate.swift in Sources */,
+				FAB01154264824F200A0026C /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
